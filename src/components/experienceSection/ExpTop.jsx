@@ -1,6 +1,6 @@
 import React from 'react'
-import ExpTopLeft from './expTopLeft.jsx'
-import ExpTopMiddle from './expTopMiddle.jsx'
+import ExpTopLeft from './ExpTopLeft.jsx'
+import ExpTopMiddle from './ExpTopMiddle.jsx'
 import ExpTopRight from './ExpTopRight.jsx'
 
 const ExpTop = () => {
