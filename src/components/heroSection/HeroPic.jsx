@@ -2,6 +2,7 @@ import React from 'react'
 import { FaRegCircle } from "react-icons/fa6";
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
+import heroImage from '/images/HexaPic.png'
 
 const HeroPic = () => {
   return (
@@ -13,7 +14,7 @@ const HeroPic = () => {
       className='h-full flex items-center justify-center sm:mt-8 md:mt-0'
     >
       <img 
-        src="../../public/images/HexaPic.png" 
+        src={heroImage} 
         alt="Syed Ashik Ahamed" 
         className='rounded-full max-h-[410px] max-w-[500px] w-auto' 
       />

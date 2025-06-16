@@ -3,34 +3,35 @@ import ProjectsText from './ProjectsText'
 import SingleProject from './SingleProject'
 import {motion} from 'framer-motion';
 import {fadeIn} from '../../framerMotion/variants'
+import projectImage1 from '/images/website-img-1.jpg'
 
 const projects = [
     {
         name:'Vacations of Africa',
         year:'2022',
         align:'right',
-        image:'../../public/images/website-img-1.jpg',
+        image: projectImage1,
         link:'#'
     },
     {
         name:'Vacations of Africa',
         year:'2022',
         align:'left',
-        image:'../../public/images/website-img-1.jpg',
+        image: projectImage1,
         link:'#'
     },
     {
         name:'Vacations of Africa',
         year:'2022',
         align:'right',
-        image:'../../public/images/website-img-1.jpg',
+        image: projectImage1,
         link:'#'
     },
     {
         name:'Vacations of Africa',
         year:'2022',
         align:'left',
-        image:'../../public/images/website-img-1.jpg',
+        image: projectImage1,
         link:'#'
     },
 ]
