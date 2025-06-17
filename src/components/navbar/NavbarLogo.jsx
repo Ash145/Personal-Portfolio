@@ -4,7 +4,7 @@ const NavbarLogo = () => {
   return (
     <div>
         <h1 className='text-white text-2xl sm:hidden md:block'>Syed Ashik Ahamed</h1>
-        <h1 className='text-white font-special font-extrabold text-4xl sm:block md:hidden'>Ash</h1>
+        <h1 className='text-white font-special font-extrabold text-4xl sm:block sm:text-3xl md:hidden'>Ash</h1>
     </div>
   )
 }
